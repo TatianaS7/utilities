@@ -1,3 +1,7 @@
+# This script extracts the text from each page of a PDF file and filters the pages based on the presence of target text.
+# If a page contains any of the target texts, it is included in the output PDF. 
+# Otherwise, it is skipped.
+
 import pytesseract
 import re
 import io
